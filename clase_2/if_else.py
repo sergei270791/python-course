@@ -31,6 +31,7 @@ else:
   if radio > 0:
     radio=radio**2
     radio=(22/7)*radio
+    
     print('el area del circulo es ',radio)
   else:
     print('El punto no tiene area')
