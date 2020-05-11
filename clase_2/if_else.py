@@ -25,15 +25,15 @@
 
 radio=int(input('insertar el radio del circulo '))
 if radio < 0:
-    print('Error el radio no puede ser negativo')
+  print('Error el radio no puede ser negativo')
 else:
-    print('El radio es',radio)
-    if radio > 0:
-        radio=radio**2
-        radio=(22/7)*radio
-        print('el area del circulo es ',radio)
-    else:
-        print('El punto no tiene area')
+  print('El radio es',radio)
+  if radio > 0:
+    radio=radio**2
+    radio=(22/7)*radio
+    print('el area del circulo es ',radio)
+  else:
+    print('El punto no tiene area')
 
 
 
